@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="style.css" rel="stylesheet">
+</head>
+<body>
+
+    <div id="game">
+        <h1 class="title">Rock, Paper, Scissor Game!</h1>
+        <span class="title">Click an icon to begin</span>
+
+        <div id="images">
+            <img src="https://assets.change.org/photos/1/ij/ej/sjijEJmQejKlrBB-1600x900-noPad.jpg?1597428174" onclick="rps('r')">
+            <img src="https://th.bing.com/th/id/OIP.uIoe6XUMZG-jTmQ-G0sdBQHaHa?rs=1&pid=ImgDetMain" onclick="rps('p')">
+            <img src="https://static-00.iconduck.com/assets.00/scissors-emoji-1806x2048-8uc9jnej.png" onclick="rps('s')">
+        </div>
+
+        <div id="picks">
+            <h2 id="playerPick"></h2>
+            <h2 id="computerPick"></h2>
+        </div>
+
+        <h1 id="result"></h1>
+
+        <div id="scores">
+            <h3 id="playerScore"></h3>
+            <h3 id="computerScore"></h3>
+        </div>
+
+    </div>
+
+    <script src="index.js"></script>
+    
+</body>
+</html>
